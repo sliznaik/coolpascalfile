@@ -1,0 +1,64 @@
+unit Unit6;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm10 = class(TForm)
+    Button1: TButton;
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form10: TForm10;
+  F: TextFile;
+  k: Integer;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm10.FormCreate(Sender: TObject);
+var
+  str_k: String;
+begin
+  Visible := False; // скрыть форму
+  AssignFile(F, 't.txt');
+  if FileExists('t.txt') then
+  begin
+    Reset(F);
+    Readln(F, str_k);
+    CloseFile(F);
+    k := StrToInt(str_k);
+  end
+  else
+  begin
+    Rewrite(F);
+    k := 0;
+    str_k := IntToStr(k);
+    Write(F, str_k);
+    CloseFile(F);
+  end;
+end;
+
+procedure TForm10.Button1Click(Sender: TObject);
+var
+  str_k: String;
+begin
+  Inc(k);
+  AssignFile(F, 't.txt');
+  Rewrite(F);
+  str_k := IntToStr(k);
+  Write(F, str_k);
+  CloseFile(F);
+end;
+
+end.

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.339,C:\Users\Пользователь\Desktop\папка\reliz\Unit10.dfm=C:\Users\Пользователь\Desktop\папка\reliz\Unit6.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.988,=C:\Users\Пользователь\Desktop\папка\reliz\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.222,=C:\Users\Пользователь\Desktop\папка\reliz\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.438,C:\Users\Пользователь\Desktop\папка\reliz\Unit6.pas=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.521,C:\Users\Пользователь\Desktop\папка\reliz\Unit6.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,=C:\Users\Пользователь\Desktop\папка\reliz\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.977,C:\Users\Пользователь\Desktop\reliz\Project1.dproj=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.651,=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.339,C:\Users\Пользователь\Desktop\папка\reliz\Unit10.pas=C:\Users\Пользователь\Desktop\папка\reliz\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.438,C:\Users\Пользователь\Desktop\папка\reliz\Unit6.dfm=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.321,C:\Users\Пользователь\Desktop\reliz\Unit1.dfm=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.890,=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.181,=C:\Users\Пользователь\Desktop\папка\reliz\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.289,=C:\Users\Пользователь\Desktop\reliz\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.511,=C:\Users\Пользователь\Desktop\папка\reliz\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.856,=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.331,=C:\Users\Пользователь\Desktop\reliz\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.114,=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.317,=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.988,=C:\Users\Пользователь\Desktop\папка\reliz\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.743,=C:\Users\Пользователь\Desktop\папка\reliz\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.321,C:\Users\Пользователь\Desktop\reliz\Unit1.pas=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.282,C:\Users\Пользователь\Desktop\папка\reliz\Unit6.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.844,=C:\Users\Пользователь\Desktop\reliz\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.134,=C:\Users\Пользователь\Desktop\reliz\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.978,=C:\Users\Пользователь\Desktop\reliz\Unit2.pas</Transaction>
+    <Transaction>2024.05.01 01:28:08.596,C:\Users\Пользователь\Desktop\папка\reliz\Unit6.pas=</Transaction>
+    <Transaction>2024.05.01 01:28:12.752,=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.pas</Transaction>
+    <Transaction>2024.05.01 01:28:26.471,C:\Users\Пользователь\Desktop\папка\reliz\Unit6.dfm=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.dfm</Transaction>
+    <Transaction>2024.05.01 01:28:26.471,C:\Users\Пользователь\Desktop\папка\reliz\Unit6.pas=C:\Users\Пользователь\Desktop\папка\reliz\Unit10.pas</Transaction>
+    <Transaction>2024.05.01 01:56:10.411,=C:\Users\Пользователь\Desktop\папка\reliz\Unit11.pas</Transaction>
+    <Transaction>2024.05.01 02:02:12.902,=C:\Users\Пользователь\Desktop\папка\reliz\Unit12.pas</Transaction>
+    <Transaction>2024.05.01 02:02:16.605,=C:\Users\Пользователь\Desktop\папка\reliz\Unit13.pas</Transaction>
+    <Transaction>2024.05.01 02:02:19.652,=C:\Users\Пользователь\Desktop\папка\reliz\Unit14.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="Unit5.pas"/>
+    <File Path="Unit5.dfm"/>
+    <File Path="Unit6.pas"/>
+    <File Path="Unit6.dfm"/>
+    <File Path="Unit7.pas"/>
+    <File Path="Unit7.dfm"/>
+    <File Path="Unit8.pas"/>
+    <File Path="Unit8.dfm"/>
+    <File Path="Unit9.pas"/>
+    <File Path="Unit9.dfm"/>
+    <File Path="Unit11.pas"/>
+    <File Path="Unit11.dfm"/>
+    <File Path="Unit13.pas"/>
+    <File Path="Unit13.dfm"/>
+    <File Path="Unit14.pas"/>
+    <File Path="Unit14.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

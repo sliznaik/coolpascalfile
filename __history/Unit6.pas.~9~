@@ -1,0 +1,57 @@
+unit Unit6;
+
+interface
+
+uses
+Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Unit7, Unit8;
+
+type
+TForm10 = class(TForm)
+CheckBox1: TCheckBox;
+CheckBox2: TCheckBox;
+Button1: TButton;
+procedure Button1Click(Sender: TObject);
+procedure CheckBox1Click(Sender: TObject);
+procedure CheckBox2Click(Sender: TObject);
+private
+{ Private declarations }
+k: Integer;
+public
+{ Public declarations }
+end;
+
+var
+Form10: TForm10;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm10.Button1Click(Sender: TObject);
+begin
+if k = 1 then
+begin
+Form8.Show;
+Form10.Hide;
+end
+else if k = 2 then
+begin
+Form7.Show;
+Form10.Hide;
+end;
+end;
+
+procedure TForm10.CheckBox1Click(Sender: TObject);
+begin
+if CheckBox1.Checked then
+k := k + 2;
+end;
+
+procedure TForm10.CheckBox2Click(Sender: TObject);
+begin
+if CheckBox2.Checked then
+k := k + 1;
+end;
+
+end.

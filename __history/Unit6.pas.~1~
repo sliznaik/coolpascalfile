@@ -1,0 +1,76 @@
+unit Unit6;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Unit7, Vcl.StdCtrls, Vcl.Imaging.jpeg,
+  Vcl.ExtCtrls;
+
+type
+  TForm6 = class(TForm)
+    Image1: TImage;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Edit5: TEdit;
+    Edit4: TEdit;
+    Button3: TButton;
+    Button4: TButton;
+    Edit6: TEdit;
+    Button5: TButton;
+    Button6: TButton;
+    Edit7: TEdit;
+    Button7: TButton;
+    Button8: TButton;
+    Button9: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure Button9Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+  k : integer;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TForm6.Button1Click(Sender: TObject);
+begin
+             k := k +1
+end;
+
+procedure TForm6.Button3Click(Sender: TObject);
+begin
+                     k := k +1
+end;
+
+procedure TForm6.Button5Click(Sender: TObject);
+begin
+                   k := k +1
+end;
+
+procedure TForm6.Button7Click(Sender: TObject);
+begin
+                     k := k +1
+end;
+
+procedure TForm6.Button9Click(Sender: TObject);
+begin
+               if k = 2 then
+
+end;
+
+
